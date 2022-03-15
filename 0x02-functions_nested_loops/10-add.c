@@ -1,7 +1,10 @@
 #include "main.h"
-
 /**
- * times_table - Prints the 9 times table, starting with 0.
+ * add - Adds two integers.
+ * @a: The first integer to be added.
+ * @b: The second integer to be added.
+ *
+ * Return: The result of the addition.
  */
 int add(int a, int b)
 {
