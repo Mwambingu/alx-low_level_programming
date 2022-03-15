@@ -2,11 +2,14 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
+ * _islower - Checks if a character is lowercase.
+ * @c: The character to be checked.
+ *
+ * Return: 1 if character is lowercase, 0 otherwise.
  */
 int _islower(int c)
 {
-	if (islower(c) && c == 'c')
+	if (islower(c))
 	{
 		return (1);
 	}
