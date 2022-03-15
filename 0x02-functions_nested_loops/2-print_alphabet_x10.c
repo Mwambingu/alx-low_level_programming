@@ -6,10 +6,10 @@
 void print_alphabet_x10(void)
 {
 	int i;
-	int i2;
+	int count = 0;
 	char letters[] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i2 = 0; i2 <= 10; i2++)
+	for (i2 = 0; i2 <= 9; i2++)
 	{
 		for (i = 0; i < 26; i++)
 		{
