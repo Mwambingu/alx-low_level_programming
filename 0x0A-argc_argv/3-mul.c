@@ -9,20 +9,19 @@
  */
 int main(int argc, char **argv)
 {
-	int i, mltpy = 1;
-
-	if (argc >= 2)
-	{
-		for (i = 1; i < argc; i++)
-		{
-			mltpy *= atoi(argv[i]);
-		}
-		printf("%d\n", mltpy);
-	}
-	else
-	{
-		printf("Error\n");
-		return (1);
-	}
-	return (0);
+int i, mltpy = 1;
+if (argc >= 2)
+{
+for (i = 1; i < argc; i++)
+{
+mltpy *= atoi(argv[i]);
+}
+printf("%d\n", mltpy);
+}
+else
+{
+printf("Error\n");
+return (1);
+}
+return (0);
 }
