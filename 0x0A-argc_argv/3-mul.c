@@ -17,11 +17,11 @@ for (i = 1; i < argc; i++)
 mltpy *= atoi(argv[i]);
 }
 printf("%d\n", mltpy);
+return (0);
 }
 else
 {
 printf("Error\n");
 return (1);
 }
-return (0);
 }
