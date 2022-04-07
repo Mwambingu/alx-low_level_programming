@@ -11,9 +11,11 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	if (malloc(b) == NULL)
+	void *mall = malloc(b);
+
+	if (mall == NULL)
 	{
 		exit(3);
 	}
-	return (malloc(b));
+	return (mall);
 }
